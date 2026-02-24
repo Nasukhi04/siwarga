@@ -1,0 +1,39 @@
+/* assets/css/style.css */
+
+body {
+    background-color: #f5f7fb;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.thumb-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.img-preview {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 90px;
+}
+
+@media (max-width: 768px) {
+    .thumb-img {
+        width: 48px;
+        height: 48px;
+    }
+}
